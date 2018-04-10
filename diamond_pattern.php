@@ -2,34 +2,11 @@
 
 for ($i=0; $i < 8 ; $i++) { 
 
-	if($i < 4){
-		for ($j=0; $j < 4 ; $j++) { 
-			if($j == 1){
-			 	for ($i=0; $i <= 8 ; $i++) {	
-					echo "* ";
-			    }
-				   echo "\r\n";		
-			}
-
-			if($j == 2){
-			 	for ($i=0; $i <= 8 ; $i++) {
-					echo $retVal = ($i == 4) ? '1 ' : "* " ;
-			    }
-				   echo "\r\n";		
-			}
-
-			if($j == 3){
-			 	for ($i=0; $i <= 8 ; $i++) {
-					echo $retVal = ($i == 3) ? '1 ' : "* " ;
-					echo $retVal = ($i == 4) ? '2 ' : "" ;
-		 				echo $retVal = ($i == 5) ? '1 ' : "" ;
-
-
-			    }
-				   echo "\r\n";		
-			}
-		}		
-	}
+	if($i <= 4){		
+		for ($i=0; $i <= 4 ; $i++) {
+			echo "* ";
+		}
+	}		echo "\r\n";
 }
 
 
